@@ -105,7 +105,7 @@ public class OnlineQuizApplication {
     private void connectToDatabase() {
         try {
     
-            String url = "jdbc:mysql://localhost:3306/quizdb";
+            String url = "jdbc:mysql://localhost:3306/quiz";
             String username = "root";
             String password = "mysql";
             connection = DriverManager.getConnection(url, username, password);
